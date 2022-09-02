@@ -12,6 +12,10 @@ const TodoSchema = new mongoose.Schema({
   userId: {
     type: String,
     required: true
+  },
+  dayOfWeek: { //user inputs specific day for todo item to be listed under
+    type: String,
+    required: true,
   }
 })
 
